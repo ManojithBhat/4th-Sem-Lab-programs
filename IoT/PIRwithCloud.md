@@ -1,4 +1,36 @@
-## 5 PIR with cloud 
+## 5 Object Detection using PIR sensor and LED interfacing with RaspberryPi
+
+### Code without cloud
+This is the one that is there for lab test 
+
+```python
+import time
+import RPi.GPIO as GPIO
+
+pir_pin = 12
+led = 11
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(pir_pin,GPIO.IN)
+GPIO.setup(led,GPIO.OUT)
+
+try:
+    print("PIR sensor test (ctrl +c to exit ")
+    time.sleep(2)
+    print("Ready")
+   
+    while True:
+        if GPIO.input(pir_pin):
+            print("Motion detected")
+            GPIO.output(led,GPIO.HIGH)
+            time.sleep(2)
+            GPIO.output(led,GPIO.LOW)
+        time.sleep(1)
+except KeyboardInterrupt:
+    print("Exit..")
+       
+finally :
+    GPIO.cleanup()
+```
 
 ### Code 
 
@@ -47,4 +79,5 @@ if __name__ == "__main__":
 
 ```
 
-### methodolgy ( if anything diff has to be followed )
+### methodolgy 
+* Connect the two pins of LED and PIR to the pins of Raspberry Pi. 
