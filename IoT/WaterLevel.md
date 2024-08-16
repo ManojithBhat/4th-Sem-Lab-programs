@@ -58,10 +58,10 @@ finally:
 
 ### methodolgy 
 * The connections are asusual for any other sensor.
-step1: create a gmail account
-step2: click on profile pic, click manage account settings.
-step3: go to security tab, and enable 2-step Verification (found under the heading "how you sign into google")
-step4: Search for 'App Passwords' under Manage Accounts
-step5: Under 'Your App Passwords" enter ```preferred_name``` for  App name
-step6: Copy the Generated App password
-step7: run the code.
+* step1: create a gmail account
+* step2: click on profile pic, click manage account settings.
+* step3: go to security tab, and enable 2-step Verification (found under the heading "how you sign into google")
+* step4: Search for 'App Passwords' under Manage Accounts
+* step5: Under 'Your App Passwords" enter ```preferred_name``` for  App name
+* step6: Copy the Generated App password
+* step7: run the code.
