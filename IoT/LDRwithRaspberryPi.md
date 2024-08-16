@@ -2,6 +2,8 @@
 
 ### Code
 
+``` python
+
 import time
 import RPi.GPIO as GPIO  
 import urllib.parse
@@ -61,7 +63,7 @@ if __name__ == "__main__":
     finally:
         GPIO.cleanup()  # Clean up GPIO settings
 
-
+```
 ### Methodology 
 * There are 3 components - LDR, LED and Buzzer.
 * Connect that to the pins of Raspberry Pi, open thingspeak - channel - take the id

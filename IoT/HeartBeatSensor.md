@@ -2,7 +2,7 @@
 
 ### Code 
 
-``` 
+``` c
 #include <PulseSensorPlayground.h>
 
 // Create an instance of the PulseSensorPlayground class
