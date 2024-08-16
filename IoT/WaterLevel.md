@@ -2,7 +2,7 @@
 
 ### Code 
 
-``` 
+``` python
 import RPi.GPIO as GPIO
 import smtplib
 from email.mime.text import MIMEText
@@ -56,4 +56,7 @@ finally:
 
 ```
 
-### methodolgy ( if anything diff has to be followed )
+### methodolgy 
+* The connections are asusual for any other sensor.
+* In order to get ```EMAIL_PASSWORD``` we need to enable two factor authentication in your account.
+* Go to settings > app password > generate app password and use it.
