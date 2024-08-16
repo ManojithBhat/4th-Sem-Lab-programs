@@ -15,7 +15,7 @@ void setup() {
 
   // Initialize the PulseSensorPlayground library
   pulseSensor.analogInput(pulsePin);
-  pulseSensor.setThreshold(550); // Set the threshold for detecting beats
+  pulseSensor.setThreshold(550); 
   pulseSensor.begin();
 }
 
@@ -38,4 +38,9 @@ void loop() {
 
 ```
 
-### methodolgy ( if anything diff has to be followed )
+### method
+
+* Install PulseSensor Playground library from the library manager.
+
+### Connections 
+* Heart beat sensor has 3 pins, analog pin, ground and vcc, connect the analog pin to A0
