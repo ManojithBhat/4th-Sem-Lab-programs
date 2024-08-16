@@ -34,7 +34,7 @@ finally :
 
 ### Code 
 
-``` 
+``` python
 import http.client     #uses classes  for http client side
 import urllib.parse    #parses URL string and uses http url scheme  
 import time
