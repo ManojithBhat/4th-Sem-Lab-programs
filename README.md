@@ -26,7 +26,7 @@ Please follow the templateIot.md and templateDAA.md for the reference.
 |2|Topological Sort|[code](./DAA/TopoSort.md)|
 |3|Presorting|[code](./DAA/PreSort.md)|
 |4|Horspool String Matching|[code](./DAA/HorspoolAlgo.md)|
-|5|0/1 Knapsack using DP|[code](./DAA/Knapsack.md)|
-|6|Dijkstra's Algorithm|[code](./DAA/Dijkstra.md)|
-|7|Sum of Subset|[code](./DAA/subSetProblem.md)|
+|5|0/1 Knapsack using DP|[code](./DAA/KnapSack.md)|
+|6|Dijkstra's Algorithm|[code](./DAA/Djikstra.md)|
+|7|Sum of Subset|[code](./DAA/SubSetProblem.md)|
 |8|N Queens|[code](./DAA/NQueens.md)|
