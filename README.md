@@ -5,7 +5,7 @@ Please follow the templateIot.md and templateDAA.md for the reference.
 
 ### Internet of Things
 
-| # | Experiment Title | Experiment |
+| No. | Experiment Title | Description |
 |---| ----- | -------- |
 |1|Arduino LED Blinking|[description](./IoT/LEDblinking.md)|
 |2|Arduino Heartbeat|[description](./IoT/HeartBeatSensor.md)|
@@ -20,7 +20,7 @@ Please follow the templateIot.md and templateDAA.md for the reference.
 
 ### Design and Analysis of Algorithms
 
-| # | Program Title | Program Code |
+| No. | Program Title | Code |
 |---| ----- | -------- |
 |1|Merge Sort|[code](./DAA/mergeSort.md)|
 |2|Topological Sort|[code](./DAA/TopoSort.md)|
