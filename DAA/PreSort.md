@@ -66,7 +66,7 @@ void main(){
         printf("Enter element %d : \t",i+1);
         scanf("%d",&arr[i]);
     }
-    mergesort(arr,0,size-1);
+    MergeSort(arr,0,size-1);
     int i=0;
     for(i=0;i<size-1;i++){
         if(arr[i] == arr[i+1]){
