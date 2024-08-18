@@ -1,6 +1,9 @@
 # Pre Sorting 
 
+
 ### code 
+
+In separate file named mergeSort.h write the code for mergeSort which will be used as a library to call mergeSort function.
 ``` c
 #include <stdio.h>
 #include <stdlib.h>
@@ -49,6 +52,7 @@ void MergeSort(int arr[], int low, int end) {
 ```
 
 ### code  
+file from where mergeSort function will be called
 ``` c
 #include<stdio.h>
 #include "mergeSort.h"
@@ -65,7 +69,7 @@ void main(){
     mergesort(arr,0,size-1);
     int i=0;
     for(i=0;i<size-1;i++){
-        if(arr[i] == arr[i+2]){
+        if(arr[i] == arr[i+1]){
             printf("Array is not Unique\n");
             break;
         }
