@@ -7,7 +7,6 @@ In separate file named mergeSort.h write the code for mergeSort which will be us
 ``` c
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 #define N 32000
 
