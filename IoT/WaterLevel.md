@@ -14,7 +14,7 @@ EMAIL_PASSWORD = ' '   # Your email password
 TO_EMAIL = ''    # Recipient's email address
 
 # Set up GPIO
-WPIN = 4  # GPIO pin for PIR sensor
+WPIN = 4  
 BUZZERPIN=17
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(WPIN, GPIO.IN)
@@ -22,8 +22,8 @@ GPIO.setup(BUZZERPIN, GPIO.OUT)
 
 # Function to send email notification
 def send_email():
-    msg = MIMEText('Motion detected!')
-    msg['Subject'] = 'Alert: Motion Detected'
+    msg = MIMEText('Water sensor detected water!')
+    msg['Subject'] = 'Alert:Water sensor is wet!'
     msg['From'] = EMAIL_ADDRESS
     msg['To'] = TO_EMAIL
 
@@ -38,11 +38,11 @@ def send_email():
 # Main loop
 try:
     print("Water Sensor with email (CTRL+C to exit)")
-    time.sleep(2)  # Warm-up time for PIR sensor
+    time.sleep(2)  
     print("Ready")
 
     while True:
-        if GPIO.input(WPIN):  # If motion is detected
+        if GPIO.input(WPIN):  # If water is detected
             print("Water sensor is wet!")
             GPIO.output(BUZZERPIN,True)
             send_email()
