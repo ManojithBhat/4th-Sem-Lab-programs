@@ -27,6 +27,7 @@ def ldr():
        
         if ldr_value == 1:
             print("High: Switch on buzzer")
+            GPIO.output(BUZZER_PIN,True)
             print("led ON")
             GPIO.output(LED,True)
         else:
