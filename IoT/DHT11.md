@@ -3,9 +3,13 @@
 ### Pre - work
 
 * create virtual environment in new folder
+```bash
+python -m venv <yourVenvName>
+source <yourVenvName>/bin/activate
+```
 * within the virtual environment execute following commands:
-  * "pip install Adafruit-Blinka" (in order to use board)
-  * "pip install adafruit-circuitpython-dht" (to use adafruit_dht)
+  * ```pip install Adafruit-Blinka ``` (in order to use board)
+  * ```pip install adafruit-circuitpython-dht``` (to use adafruit_dht)
 * create python file (eg dht11.py) within the virtual environment folder
 * open thonny, paste the below code in that python file and save
 * run the code on the terminal within the virtual environment using python3 dht11.py
