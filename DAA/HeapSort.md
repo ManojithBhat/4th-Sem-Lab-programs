@@ -1,4 +1,4 @@
-## 1. Merge Sort
+## 1. Heap Sort
 
 ### Code 
 
