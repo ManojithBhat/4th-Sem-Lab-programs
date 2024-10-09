@@ -33,4 +33,5 @@ Please follow the templateIot.md and templateDAA.md for the reference.
 |9|Heap Sort|[code](./DAA/HeapSort.md)|
 |10|Floyd Algorithm|[code](./DAA/Floyds.md)|
 |11|Connectivity of graph by BFS|[code](./DAA/ConnectivityByBFS.md)|
-
+|12|Quick Sort|[code](./DAA/QuickSort.md)|
+|13|Prims Algorithm - MST|[code](./DAA/PrimsAlgo.md)|
