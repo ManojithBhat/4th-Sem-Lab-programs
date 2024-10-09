@@ -106,8 +106,8 @@ int main() {
 ```
 
 ### How to run ?
-1. Save the file as mergeSort.c
-2. run the command gcc mergeSort.c -lm
+1. Save the file as heapSort.c
+2. run the command gcc heapSort.c -lm
 3. run ./a.out
 4. Enter the input 
 
