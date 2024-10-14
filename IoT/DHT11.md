@@ -54,8 +54,7 @@ from rpi_lcd import LCD
 
 # Define your ThingSpeak channel parameters
 channel_id = 2595470
-write_key = '86CNU3LZRKBSRJW9'         //change based on                                                                            your channel created 
-
+write_key = '86CNU3LZRKBSRJW9'       
 # Initialize the ThingSpeak channel
 channel = thingspeak.Channel(id=channel_id, api_key=write_key)
 
