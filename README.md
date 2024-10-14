@@ -35,3 +35,7 @@ Please follow the templateIot.md and templateDAA.md for the reference.
 |11|Connectivity of graph by BFS|[code](./DAA/ConnectivityByBFS.md)|
 |12|Quick Sort|[code](./DAA/QuickSort.md)|
 |13|Prims Algorithm - MST|[code](./DAA/PrimsAlgo.md)|
+
+
+ ### Note
+The code in this repository has been compiled and tested once. While it has shown expected results during initial testing, I cannot guarantee that it will work perfectly in all cases. Please feel free to review and test it further.
