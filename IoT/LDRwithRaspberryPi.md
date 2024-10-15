@@ -85,7 +85,7 @@ def setup_gpio():
     GPIO.setup(LED, GPIO.OUT)
 
 def ldr():
-    channel = thingspeak.Channel(id=channel_id, write_key=write_key)
+    channel = thingspeak.Channel(id=channel_id, api_key=write_key)
     while True:
         ldr_value = GPIO.input(LDR_PIN) 
        
